@@ -2,26 +2,22 @@ import React from 'react';
 import './header.css';
 
 const Header = () => {
+  const navButtons = [
+    { label: 'Home' },
+    { label: 'About' },
+    { label: 'Events' },
+    { label: 'Gallery' },
+  ];
   return (
-    <nav id="navbar">
-      <div className="container">
-        <h2 className="logo">
-          <a href="Header.tsx">GENERAȚIA CURATĂ</a>
-        </h2>
-        <ul>
-          <li>
-            <a href="Home.tsx">Home</a>
-          </li>
-          <li>
-            <a href="About.tsx">About</a>
-          </li>
-          <li>
-            <a href="Events.tsx">Events</a>
-          </li>
-          <li>
-            <a href="Gallery.tsx">Gallery</a>
-          </li>
-        </ul>
+    <nav className="navbar">
+      <div className="logo">
+        <a href="Header.tsx">GENERAȚIA CURATĂ</a>
+      </div>
+
+      <div className="nav-labels">
+        {navButtons.map(({ label }) => (
+          <a className="nav-links">{label}</a>
+        ))}
       </div>
     </nav>
   );
