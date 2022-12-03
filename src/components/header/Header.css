@@ -30,18 +30,18 @@ a {
   font-size: large;
   width: auto;
   align-items: center;
+  justify-content: space-between;
   padding-block: 0 0;
 }
 
-.nav-labels {
+.nav-links-container {
   font-weight: 600;
   display: flex;
   list-style: none;
-  justify-items: flex-end;
+  justify-content: center;
 }
-.nav-links {
-  display: flex;
-  padding-left: 20px;
+.nav-link {
+  margin-left: 20px;
 }
 
 .nav-links:hover {

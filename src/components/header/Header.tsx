@@ -9,17 +9,16 @@ const Header = () => {
     { label: 'Gallery' },
   ];
   return (
-    <nav className="navbar">
+    <header className="navbar">
       <div className="logo">
-        <a href="Header.tsx">GENERAȚIA CURATĂ</a>
+        <a href="#page">GENERAȚIA CURATĂ</a>
       </div>
-
-      <div className="nav-labels">
+      <div className="nav-links-container">
         {navButtons.map(({ label }) => (
-          <a className="nav-links">{label}</a>
+          <a className="nav-link">{label}</a>
         ))}
       </div>
-    </nav>
+    </header>
   );
 };
 export default Header;

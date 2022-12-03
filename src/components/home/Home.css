@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 4em;
+}
+
+.hero-container {
+  width: auto;
+  height: 50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: 800;
+  color: #a0877e;
+}
+
+.description {
+  font-size: larger;
+  font-weight: 600;
+  color: #a0877e;
+}
+
+.read-more-button {
+  padding: 18px;
+  color: #715a52;
+  font-size: larger;
+  border-radius: none;
+  background-color: #fff;
+  border-style: solid;
+  border-color: #a0877e;
+}
+.read-more-button:hover {
+  background: #a0877e;
+  color: #fff;
+}
