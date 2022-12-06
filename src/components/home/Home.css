@@ -11,6 +11,9 @@ body {
 }
 
 .hero-container {
+  /* background-image: url(https://scontent.fkiv7-1.fna.fbcdn.net/v/t39.30808-6/302443947_8658147890877708_3807237448757500220_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=0debeb&_nc_ohc=mYiJRXE6OlAAX8dFeHx&_nc_ht=scontent.fkiv7-1.fna&oh=00_AfD9AQguswx6Ivqbz6_f-iJACj-QNsocX4VmUoC7vCRYPg&oe=6390BEBB); */
+  background-size: cover;
+  opacity: initial;
   width: auto;
   height: 50rem;
   display: flex;
@@ -32,6 +35,7 @@ body {
 }
 
 .read-more-button {
+  margin-top: 12px;
   padding: 18px;
   color: #715a52;
   font-size: larger;
@@ -43,4 +47,5 @@ body {
 .read-more-button:hover {
   background: #a0877e;
   color: #fff;
+  cursor: pointer;
 }

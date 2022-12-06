@@ -44,7 +44,8 @@ a {
   margin-left: 20px;
 }
 
-.nav-links:hover {
+.nav-link:hover {
   background: #715a52;
   color: #d1b7ad;
+  cursor: pointer;
 }
