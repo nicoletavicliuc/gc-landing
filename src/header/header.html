@@ -1,12 +1,11 @@
-import './header.css';
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="description" content="gc landing page" />
-    <link rel="stylesheet" href="header.css" />
-    <title>Generația Curată</title>
+    <link rel="stylesheet" href="./header.css" />
+    <title>Generația Curată Header</title>
   </head>
   <body>
     <script>
@@ -22,9 +21,11 @@ import './header.css';
         <a href="#page">GENERAȚIA CURATĂ</a>
       </div>
       <div className="nav-links-container">
-        {navButtons.map(({ label }) => (
-        <a className="nav-link">{label}</a>
-        ))}
+        <script>
+          {
+            navButtons.map(({ label }) => <a className="nav-link">{label}</a>);
+          }
+        </script>
       </div>
     </header>
   </body>
