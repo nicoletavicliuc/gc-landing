@@ -8,6 +8,7 @@ html,
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.7em;
+  height: 100%;
 }
 
 a {
@@ -72,7 +73,7 @@ p {
   /* background-image: url(https://scontent.fkiv7-1.fna.fbcdn.net/v/t39.30808-6/302443947_8658147890877708_3807237448757500220_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=0debeb&_nc_ohc=mYiJRXE6OlAAX8dFeHx&_nc_ht=scontent.fkiv7-1.fna&oh=00_AfD9AQguswx6Ivqbz6_f-iJACj-QNsocX4VmUoC7vCRYPg&oe=6390BEBB); */
 
   width: auto;
-  height: 50rem;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -89,6 +90,7 @@ p {
   font-size: larger;
   font-weight: 600;
   color: #a0877e;
+  margin-block: 2rem;
 }
 
 #hero-container #read-more-button {
@@ -102,6 +104,50 @@ p {
   border-color: #a0877e;
 }
 #hero-container #read-more-button:hover {
+  background: #a0877e;
+  color: #fff;
+  cursor: pointer;
+}
+#about-container {
+  width: auto;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  flex-direction: column;
+}
+#about-container #title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #a0877e;
+  margin-top: 5rem;
+  padding: 12px
+
+}
+#about-container #photo-and-description {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 12rem;
+  margin: 8rem;
+  
+}
+#about-container #photo-and-description #description {
+  font-size: larger;
+  font-weight: 600;
+  color: #a0877e;
+ 
+}
+#about-container #read-more-button {
+  margin-top: 12px;
+  padding: 18px;
+  color: #715a52;
+  font-size: larger;
+  border-radius: none;
+  background-color: #fff;
+  border-style: solid;
+  border-color: #a0877e;
+}
+#about-container #read-more-button:hover {
   background: #a0877e;
   color: #fff;
   cursor: pointer;
