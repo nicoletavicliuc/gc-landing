@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: #d7ccc8
+  background: #d7ccc8;
 }
 
 html,
@@ -84,10 +84,10 @@ p {
 #hero-container #title {
   font-size: 4rem;
   font-weight: 800;
-  color: #715a52
+  color: #715a52;
 }
 
-#hero-container #description{
+#hero-container #description {
   font-size: larger;
   font-weight: 600;
   color: #715a52;
@@ -121,8 +121,7 @@ p {
   font-weight: 600;
   color: #715a52;
   margin-top: 5rem;
-  padding: 12px
-
+  padding: 12px;
 }
 #about-container #photo-and-description {
   display: flex;
@@ -130,13 +129,11 @@ p {
   flex-direction: row;
   gap: 12rem;
   margin: 8rem;
-  
 }
 #about-container #photo-and-description #description {
   font-size: larger;
   font-weight: 600;
   color: #715a52;
- 
 }
 
 #about-container #read-more-button {
@@ -160,6 +157,7 @@ p {
   display: flex;
   height: 100%;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
 }
 #events-container #title {
@@ -167,27 +165,16 @@ p {
   font-weight: 600;
   color: #715a52;
   margin-top: 5rem;
-  padding: 12px
+  padding: 12px;
 }
-
 #events-container #photo-grid {
-  display: flex;
-  /* grid-template-columns: 1fr 1fr 1fr 1fr;  */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
-  /* grid-row: 2;
-  grid-column: 2;
-  column-gap: 25rem;
-  row-gap: 5rem; */
-  margin: 8rem;
+  column-gap: 2rem;
+  row-gap: 2rem;
+  margin-block: 5rem;
 }
-
-/* #events-container #photo-grid {
-  display: flex;
-  flex-direction: column;
-  row-gap: 12px;
-  column-gap: 12px;
-  margin: 8rem;
-} */
 
 
 #events-container #read-more-button {
@@ -201,10 +188,11 @@ p {
   border-color: #715a52;
 }
 #events-container #read-more-button:hover {
-  background:#715a52;
+  background: #715a52;
   color: #fff;
   cursor: pointer;
 }
+
 #gallery-container {
   width: auto;
   display: flex;
@@ -218,17 +206,14 @@ p {
   font-weight: 600;
   color: #715a52;
   margin-block: 5rem;
-  padding: 12px
+  padding: 12px;
 }
 #gallery-container #photo-grid {
   display: grid;
-  /* grid-template-columns: 50px 50px 50px 50px 50px;  */
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   align-items: center;
-  /* justify-content: center; */
   column-gap: 2rem;
   row-gap: 2rem;
-
 }
 #gallery-container #read-more-button {
   margin-top: 12px;
@@ -241,7 +226,7 @@ p {
   border-color: #715a52;
 }
 #gallery-container #read-more-button:hover {
-  background:#715a52;
+  background: #715a52;
   color: #fff;
   cursor: pointer;
 }
