@@ -176,7 +176,6 @@ p {
   margin-block: 5rem;
 }
 
-
 #events-container #read-more-button {
   margin-top: 12px;
   padding: 18px;
@@ -215,18 +214,37 @@ p {
   column-gap: 2rem;
   row-gap: 2rem;
 }
-#gallery-container #read-more-button {
-  margin-top: 12px;
-  padding: 18px;
-  color: #715a52;
-  font-size: larger;
-  border-radius: none;
-  background-color: #fff;
-  border-style: solid;
-  border-color: #715a52;
-}
-#gallery-container #read-more-button:hover {
-  background: #715a52;
+#footer-container {
+  background-color: #a1887f;
   color: #fff;
-  cursor: pointer;
+  overflow: auto;
+  flex: content;
+  border-top: #715a52;
+  border-style: solid;
+}
+
+#footer-container a {
+  color: #715a52;
+}
+
+#footer-container h2 {
+  float: left;
+  padding-top: 40px;
+  font-size: medium;
+  color: #715a52;
+}
+
+#footer-container ul {
+  list-style: none;
+  float: right;
+}
+
+#footer-container ul li {
+  float: left;
+}
+
+#footer-container ul li a {
+  display: block;
+  padding: 40px;
+  text-align: center;
 }
