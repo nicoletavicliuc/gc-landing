@@ -218,8 +218,9 @@ p {
   color: #fff;
   overflow: auto;
   flex: content;
-  border-top: #715a52;
-  border-style: solid;
+
+  border-top:solid #715a52;
+  
 }
 
 #footer-container a {
