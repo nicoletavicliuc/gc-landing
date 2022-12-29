@@ -213,14 +213,19 @@ p {
   column-gap: 2rem;
   row-gap: 2rem;
 }
+
+#gallery-container #photo-grid img:hover {
+  transform: scale(1.2);
+  transition: 0.8s;
+}
+
 #footer-container {
   background-color: #a1887f;
   color: #fff;
   overflow: auto;
   flex: content;
 
-  border-top:solid #715a52;
-  
+  border-top: solid #715a52;
 }
 
 #footer-container a {
