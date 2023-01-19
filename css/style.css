@@ -133,6 +133,7 @@ p {
   font-size: larger;
   font-weight: 600;
   color: #715a52;
+  width: 40rem;
 }
 
 #about-container #read-more-button {
@@ -163,7 +164,7 @@ p {
   font-size: 2.5rem;
   font-weight: 600;
   color: #715a52;
-  margin-top: 5rem;
+  margin-top: 6px;
   padding: 12px;
 }
 #events-container #photo-grid {
