@@ -220,7 +220,19 @@ p {
   transition: 0.8s;
 }
 
+#gallery-container a {
+  margin-top: 4rem;
+  color: #715a52;
+  font-size: larger;
+}
+#gallery-container #read-more-button:hover {
+  background: #715a52;
+  color: #fff;
+  cursor: pointer;
+}
+
 #footer-container {
+  margin-top: 4rem;
   background-color: #a1887f;
   color: #fff;
   overflow: auto;
